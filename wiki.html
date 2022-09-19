@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> <!-- cabeçalho = introduz algo-->
+            <h1> Estudo do HTML</h1>
+            <h3>Conceitos introdutórios da linguagem</h3>
+                <nav> <!--agruoa links de navegação/links para outras páginas-->
+                    <ol> <!-- lista ordenada-->
+                        <li><a href="#intro"> Introdução</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main> <!-- conteúdo principal da página/ para o desenvolvedor -->
+            <sectionn> <!--separa tópicos/conteúdos-->
+                <h3>Uso de tags</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, beatae accusamus itaque possimus unde maxime amet libero illo at soluta suscipit omnis veritatis vel tenetur modi. Consectetur rem dolores amet saepe blanditiis assumenda aperiam ea reprehenderit! Aliquam asperiores id dolore quidem voluptatem saepe temporibus repellat quis tenetur! Reprehenderit, aliquid numquam.</p>
+            </sectionn>
+            <sectionn> 
+                <h3>Uso de tabelas</h3>
+                <table border="1" cellpadding="3" style="border-collapse:collapse;"> <!-- TABLE = FAZER TABELA-->
+                    <thead> <!--cabeçalho da tabela-->
+                        <tr>
+                            <th colspan="4">Usuários</th> <!-- duração da coluna-->
+                        </tr>
+                        <tr> <!-- tr = table row = linha da tabela-->
+                            <td>Tipo</td> <!-- td = colunas-->
+                            <th>Nome</th> <!--table header = titulos da coluna-->
+                            <th>CPF V</th>
+                            <th>Data Nasc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">Funcionário</td> <!-- rowspan = duração da linha = ocupar quantas linhas /VERTICAL-->
+                            <td>José Almir <!--Table data--></td>
+                            <td>000.000.000-00</td>
+                            <td>26/06/1999</td>
+                        </tr>
+                        <tr>
+                            <td>Maria Aparecida </td>
+                            <td>000.000.000-00</td>
+                            <td>26/06/1999</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Cliente</td>
+                            <td>Carlos José</td>
+                            <td>000.000.000-00</td>
+                            <td>26/06/1999</td>
+                        </tr>
+                        <tr>
+                            <td>Geralda Oliveira</td>
+                            <td>000.000.000-00</td>
+                            <td>26/06/1999</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr/>
+                <table border="1" ceellpadding="4" style="border-collapse:collapse;">
+                    <tr>
+                        <td colspan="2">Celula 1-1</td>
+                        <td>Celula 1-3</td>
+                    </tr>
+                    <tr>
+                        <td>Celula 2-1</td>
+                        <td>Celula 2-2</td>
+                        <td>Celula 2-3</td>
+                    </tr>
+                </table>
+            </section>
+    </main>
+    <hr/> <!--horizontal rule = linha horizontal para personalizar a tela /-->
+    <footer> <!--dá informações sobre autoria/encerra o conteúdo-->
+            ©
+        <script>
+            //inserir comentário no java
+            document.write(new Date().getFullYear())
+        </script>
+            Soulcode Academy
+    </footer>
+</body>
+</html>
