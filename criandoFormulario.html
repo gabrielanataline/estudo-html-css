@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form = label, input, name, select(select - CAIXA DE SELEÇAO C/ OPCOES/ ABAIXO UMA CAIXA DE SELEÇÅO), textarea/ for e id-->
+    <!-- <input/> alto fechamento-->
+    <!--Contain de inputs --> <!-- Tag <form> Como montar um formulário, elementos Container de inputs /campos que o usuário irá prencher. rotulo, label, campo de entrada de dados-->
+    <!-- campo de entrada de dados-->
+    <!--placeholder = dica p/ usuário, escreve na tela o que é para fazer-->
+    <!--required = campo obrigatório-->
+    <!-- resultado query parameters = utiliza inputs name e  value-->
+    <!-- minlength = minimo de caracteres / maxlength  = maximo de caracteres /rows e cols tamanho pré definido da caixa de mensasgem (ROWS: número de linhas da área de texto. COLS: número de colunas da área de texto)-->
+    <!--value = atribuir valor--> 
+    <!-- type = informa o tipo do input devera ser recebido-->
+
+
+    <form>  
+        <div>
+            <label for="campoNome" >Nome completo</label><br/>
+            <input id="campoNome" name="campoNome" type="text" placeholder="Seu nome" required />
+        </div>
+        <br>
+        <div>
+            <label for="campoEmail">Email</label><br/>
+            <input id="campoEmail" name="campoEmail" type="email" placeholder="usuario@exemplo.com" required/>
+        </div>
+        <br>
+        <div>
+            <label for="campoSenha">Senha</label><br>
+            <input id="campoSenha" name="campoSenha" type="password" placeholder="Sua senha" minleght="8" required/>
+        </div>
+        <br/>
+        <div>
+            <label for="campoProfissao" >Profissão</label><br/>
+            <select id="campoProfissao" name="campoProfissao" required> 
+                <option selected disabled value="">Selecione uma opção</option> <!--selected disabled / option precisa do value--> 
+                <option value="professor">Professor</option>
+                <option value="técnico">Técnico</option>
+                <option value="Especialista">Especialista</option>
+                <option value="nda">Nenhuma das anteriores</option>
+            </select>
+        </div>
+        <br/>
+        <div>
+            <label> Idioma nativa</label><br/>
+
+            <input id="checkIngles" name="campoIdioma" type="radio" value="ingles"required/>
+            <label for="checkIngles">Inglês</label>
+
+            <input id="checkEspanhol" name="campoIdioma" type="radio" value="espanhol"required/>
+            <label for="checkEspanhol">Espanhol</label>
+
+             <input id="checkPortugues" name="campoIdioma" type="radio" value="Portugues"required/>
+            <label for="checkPortugues">Português</label>
+        </div>
+        <br/>
+        <div>
+            <label for="campoResumo"> Queremos te conbhecer</label><br/>
+            <textarea id="campoResumo" name="campoResumo" minlength="30" maxlength="128" rowns="5" cols="30" placeholder="Descreva sua vida profissional"></textarea>
+        </div>
+        <div>
+            <input id="checkTermos" type="checkbox" name="concordaTermos" required />
+            <label for="checkTermos">Concordo com os termos de serviço</label>
+        </div>
+        <hr/>
+            <button type="button">Enviar</button> <!--SUBMETER (SUBMIT)-->
+            <button type="reset">Limpar</button>
+            <button type="button" onclick="alert('Oi')">Outra ação </button>
+        </form> <!--onclick = após o clique o usuário no botão-->
+</body>
+</html>
