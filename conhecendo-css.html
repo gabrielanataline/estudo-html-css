@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- para usar código CSS, colocar dentro de head /
+        
+
+        1) inline - vai direto no elemento
+        2) tag <style> vai direto no html
+        3) dentro de arquivo separado -->
+
+    
+     <!-- <style>  
+        p{
+            color: blue;
+            font-size: 24x;
+            font-style: italic;
+        }
+    </style> -->
+    
+    <!--stylesheet = folha de estilos-->
+    <!-- rel = INTERLIGAR codigo do html com o css-->
+    <link rel="stylesheet" href="./css/style.css"/> 
+
+
+    <!--usando fonte da internet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--inline = atributo style = estilização LOCAL, ele tem preferencia entre as configuração css-->
+    <p style="color:red; font-size: 32;"> Olá, tudo bem?</p>
+    <p style="color:green; font-weight: bold;">Oi, tudo bem?</p>
+    <!--o "p"recebe as propriedades do seletor-->
+    <p>Oi, eu fui estilizado pela tag style</p>
+    <p>Oi, eu fui estilizado pela tag style</p>
+    <p style="color:orange;">Oi, eu fui estilizado pela tag style</p>
+
+    <h1 id="meu-h1">Aprendendo CSS</h1>
+    <h1 class="cabecalho">Show</h1>
+    <h2 class="cabecalho">CSS é muito legal</h2>
+    <h3 class="cabecalho">Curti d++</h3>
+    <h4 class="cabecalho">Curti d++</h4>
+    <div class="quadrado"></div>
+    <img class="banner" src="./img/korea-7366036_1280.webp">
+
+</body>
+</html>

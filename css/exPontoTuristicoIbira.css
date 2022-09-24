@@ -1,0 +1,29 @@
+h1{
+    color: blueviolet;
+}
+body{
+    color: black;
+    background-color: bisque;
+}
+
+.parque{
+    color: grey;
+    background-color: blanchedalmond;
+    margin: 50px;
+}
+.obelisco{
+    color: grey;
+    background-color: blanchedalmond;
+    padding: 50px;
+    margin: 50px;
+}
+.bandeira{
+    color: grey;
+    background-color: blanchedalmond;
+    border: 100px;
+}
+.marquise{
+    color: grey;
+    background-color: blanchedalmond;
+    width: 400px;
+}

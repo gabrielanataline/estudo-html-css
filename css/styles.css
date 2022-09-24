@@ -1,0 +1,52 @@
+/* Para usar o css externo devemos lidar ele no html destino*/
+/*p toos paragrafos*/
+p{
+    color:green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+/*body corpo*/
+body{
+    background-color: black;
+    font-family:'Raleway', sans-serif; /*fallback / duas opções de fontes, caso não tenha a primeira*/
+/* Raleway, fonte que copiei da internet */
+    }
+
+    /*
+    TIPOS DE SELETOR BÁSICO
+    1) por id(#) -> estilização unica
+    2) por class(.) -> estilização p/ varios
+    3) por elemento h1, h2, h3
+    */
+
+
+#meu-h1 { /* elemento 'id 'USAR SOMENTE UMA VEZ*/
+    font-weight: 100;
+}
+
+
+/*VAI ESTILIZAR TODOS QUE TIVER CLASS="cabecalho "*/
+.cabecalho {
+    color:crimson;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.quadrado {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 16x;
+}
+
+.banner{
+    width: 250px;
+    border-radius: 100px;
+}
+
+
+/*por elemento */
+h1, h2, h3{
+    color:white;
+    }
+/* id só se aplica a um elemento */

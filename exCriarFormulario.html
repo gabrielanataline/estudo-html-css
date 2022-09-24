@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos SoulCode Academy</title>
 </head>
+    <link rel="stylesheet" href="/css/exCriarFormulario.css"/>
 <body>
-    <img src="./img/logo-soulcode.png">
+    <!-- <img src="./img/logo-soulcode.png"> -->
+    <br/>
+    <br/>
+    <br/>
     <h1>Bem Vindo! Entre com seu email e senha.</h1>
     
     <form> <!--criar formuário-->
-    <divd>
+    <div>
         <label for="campoEmail">Email</label> <br/> <!--informação-->
         <input id="campoEmail" name="campoEmail" placeholder="email@exemplo.com" type="email" required/>  <!--campo a ser preenchido-->
-    </divd>
+    </div>
     <br/>
-    <divd>
+    <div>
         <label for="campoSenha">Senha</labe><br/>
         <input id="campoSenha" name="campoSenha" placeholder="Sua senha" type="password" minlength="6" maxlength="6" required>
-    </divd>
+    </div>
     <hr/>
     <div>
         <button type="button">Login</button> <!--inserir botão-->
@@ -30,11 +34,12 @@
     </div>
     </form>
     <br/>
-    
-    <table border="1" cellpadding="3" style="padding: 10px; border-style: groove;"> <!--inicio da tabela-->
 
-        <th colspan="8" style="padding: 10px; border-style: groove;" > Bootcamp Soulcode Academy</th>
+    <table class="table" border="1" cellpadding="3" style="padding: 10px; border-style: groove;"> <!--inicio da tabela-->
+        
+        <th class="titulo" colspan="8" style="padding: 10px; border-style: groove;" > Bootcamp Soulcode Academy</th>
         <tr>
+            </tr>
             <th>Curso</th>
             <th>Custo</th>
             <th>Prazo de inscrição</th>
@@ -65,10 +70,11 @@
             <td>Português</td>
         </tr>
     </table>
+    
 <br/>
-
-    <table border="1" cellpadding="3" style="padding: 10px; border-style: groove;">
-        <th colspan="2">Bootcamp Soulcode Academy</th>
+    
+    <table class ="table" border="1" cellpadding="3" style="padding: 10px; border-style: groove;">
+        <th class="titulo" colspan="2">Bootcamp Soulcode Academy</th>
     <tr>
         <th>Curso</th><br/>
         <td>Engenharia de Dados</td>
