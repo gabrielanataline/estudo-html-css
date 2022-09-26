@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container-flex{ 
+    background-color: silver;
+    display: flex; /*ativa o flexbox*/
+    flex-direction: row; /* Columm - distribuição vertical/ Row - horizontal(row) dos elementos*/
+    flex-wrap: wrap; /*respeitar a largura definida, da class*/
+    justify-content: center; /* Center - centralizar os elementos / space-around - espaçamneto entre os elementos/ espace-between / space-evenly - espaçamento igual*/
+    align-items: center; /* stretch, center, flex-start, flex-end / muda elementos do eixo cross*/
+
+    /*cuida do 'conteudo do container*/
+    align-content: space-around;
+    height: 350px;
+    gap: 16px;
+
+}
+
+.box-1 {
+    background-color: cadetblue;
+    align-self: flex-end;  /*modifica apenas 1 elemento, no cros*/
+    order: 1; /*alterar posição do elemento sentido c*/
+}
+
+.box-2 {
+    background-color: chocolate;
+    
+}
+
+.box-3 {
+    background-color: tomato;
+    align-self: flex-start;
+}
+
+.box-4{
+    background-color: steelblue;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    width: 200px; /*largura*/
+    padding: 8px; 
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box-5 {
+    background-color: brown;
+    flex: 1;
+}
+
+.box-6 {
+    background-color: coral;
+    flex: 2
+}
+
+.box-7{
+    background-color: teal;
+    width: 400px;
+}
+
+.container-flex-2{
+    display: flex; /*distribuição de largura*/
+    background-color: orange;
+    height: 200px;
+    flex-wrap: wrap;
+
+}
+/* .tower -1-1{}
+align-self: center; modifica apenas 1 elemento, no cross */
+
+
