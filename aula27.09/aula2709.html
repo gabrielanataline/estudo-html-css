@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles2709.css">
+</head>
+<body>
+    <header>
+
+
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="https://soulcodeacademy.org/assets/images/logo/light-logo.png" alt="Brand"/>
+                <span class="navbar-burger" onclick="ativaNavbar()">
+                    &#8801;
+                </span>
+            </div>
+            <div class="navbar-menu">
+            <a href="#" class="navbar-link">Inicio</a>
+            <a href="#" class="navbar-link">Bootcamp</a>
+            <a href="#" class="navbar-link">Online</a>
+            <a href="#" class="navbar-link">Ajuda</a>
+        </div>
+         </nav>
+
+
+</header>
+
+<script> //código javaScript
+    function ativaNavbar(){
+        //JS `varrer`documento html
+        //em busca de elemento class .navbar-menu
+        // toggle = coloca se não tiver, remove se já tiver
+        //document - irá buscar na minha página o elemento
+        document.querySelector(".navbar-menu").classList.toggle("ativa") 
+    }
+</script>
+
+</body>
+</html>
